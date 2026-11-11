@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RoadRunner Scene Builder — Kumar Abhijeet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="index.html" class="logo">Abhijeet</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.getElementById('navLinks').classList.toggle('open')">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li class="nav-item">
+                <a href="#" class="nav-parent">Case Studies <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown">
+                    <li><a href="paypal.html"><span class="label">Case Study 01 · Fintech</span>PayPal Everywhere</a></li>
+                    <li><a href="roadrunner.html"><span class="label">Case Study 02 · B2B Engineering</span>RoadRunner Scene Builder</a></li>
+                    <li><a href="adt.html"><span class="label">Case Study 03 · Developer Tools</span>ADT Reference Apps</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- CASE HERO -->
+    <section class="container">
+        <div class="case-hero">
+            <a href="index.html#work" class="back-link"><i class="fas fa-arrow-left"></i> All case studies</a>
+            <span class="mono">Case Study 02 // B2B Engineering</span>
+            <h1>Improving Core Task Efficiency</h1>
+            <p>Our customers reported difficulty learning and using a complex engineering tool. We needed to diagnose and fix usability issues to improve core task efficiency and reduce support load.</p>
+            <div class="meta-bar">
+                <div class="meta-item"><span class="label">Duration</span><span class="value">4 weeks</span></div>
+                <div class="meta-item"><span class="label">Product</span><span class="value">RoadRunner</span></div>
+                <div class="meta-item"><span class="label">Participants</span><span class="value">6 users</span></div>
+                <div class="meta-item"><span class="label">Methods</span><span class="value">Rapid Testing</span></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="case-content">
+
+            <!-- Context & Challenge -->
+            <div class="case-section">
+                <h2><i class="fas fa-exclamation-circle"></i> Context &amp; Challenge</h2>
+                <h3>Context</h3>
+                <p>RoadRunner is a tool that helps Engineers create 3D driving scenes for testing self-driving and driver-assistance systems. Users load real-world maps into the tool and then pick roads, lanes, and junctions to build scenes for simulation.</p>
+
+                <h3>The UX Challenge</h3>
+                <p>While CFEs reported that users struggled with road selection and scene creation, the root causes were unknown:</p>
+                <ul style="color: var(--text-secondary); padding-left: 1.5rem;">
+                    <li>Were users struggling with conceptual understanding or interaction design?</li>
+                    <li>Which parts of the workflow caused the most friction for power vs. casual users?</li>
+                    <li>How could we fix these issues without disrupting existing expert workflows?</li>
+                </ul>
+            </div>
+
+            <!-- My Role & Scope -->
+            <div class="case-section">
+                <h2><i class="fas fa-user-tie"></i> My Role &amp; Scope</h2>
+
+                <div class="grid-2x2">
+                    <div class="process-step">
+                        <i class="fas fa-search"></i>
+                        <h4>Discovery</h4>
+                        <p><strong style="color:var(--text-primary)">Surfacing workflow breakdown signals</strong><br />Partnered with CFEs to surface recurring workflow breakdowns from customer interactions and support tickets.</p>
+                    </div>
+                    <div class="process-step">
+                        <i class="fas fa-circle-notch"></i>
+                        <h4>Exploration</h4>
+                        <p><strong style="color:var(--text-primary)">Observing at interaction level</strong><br />Designed moderated usability tests to observe interaction-level frictions in scene creation.</p>
+                    </div>
+                    <div class="process-step">
+                        <i class="fas fa-chart-bar"></i>
+                        <h4>Interpretation</h4>
+                        <p><strong style="color:var(--text-primary)">Behavior to root-cause insights</strong><br />Triangulated behavioral signals (failures, mis-selections, etc.) with SUS / task-ease benchmarks.</p>
+                    </div>
+                    <div class="process-step">
+                        <i class="fas fa-users"></i>
+                        <h4>Collaboration</h4>
+                        <p><strong style="color:var(--text-primary)">Shaping design interventions</strong><br />Collaborated with Designers and Engineers to translate findings into interaction fixes and selection shortcuts.</p>
+                    </div>
+                </div>
+
+                <div class="method-rationale">
+                    <h3><i class="fas fa-question-circle" style="color:var(--accent-cyan);"></i> Why This Approach?</h3>
+                    <ul>
+                        <li>Expert users often adapt to poor UX; self-reported data insufficient</li>
+                        <li>Behavioral observation revealed "invisible" friction missed in CFE interviews</li>
+                        <li>Triangulation ensured fixes addressed both efficiency and learnability</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Methods & Activities -->
+            <div class="case-section">
+                <h2><i class="fas fa-flask"></i> Methods &amp; Activities</h2>
+
+                <h3>1. CFE Interview + Secondary Research</h3>
+                <p>We started by validating problem signals from CFEs and customer tickets to define research objectives.</p>
+                <div class="grid-2">
+                    <div class="ba-item">
+                        <div class="ba-header" style="color:var(--accent-cyan); background:rgba(8,145,178,0.04);">Insights from CFE Interviews</div>
+                        <div class="ba-content">
+                            <img src="images/roadrunner-cfe-insights.png" alt="Recurring problem signals surfaced during CFE interviews" />
+                        </div>
+                    </div>
+                    <div class="ba-item">
+                        <div class="ba-header" style="color:var(--accent-indigo); background:rgba(99,102,241,0.04);">Insights from Customer Support Tickets</div>
+                        <div class="ba-content">
+                            <img src="images/roadrunner-support-tickets.png" alt="Common themes from customer support tickets related to road selection and scene creation" />
+                        </div>
+                    </div>
+                </div>
+
+                <h3>2. Moderated Usability Testing</h3>
+                <p>What we captured during the sessions:</p>
+                <div class="grid-2">
+                    <div class="card">
+                        <h4><i class="fas fa-vial"></i> Session Setup</h4>
+                        <ul>
+                            <li><strong style="color:var(--text-primary)">3 Casual Users:</strong> 1–3 yrs experience</li>
+                            <li><strong style="color:var(--text-primary)">3 Power Users:</strong> 4+ yrs experience</li>
+                            <li><strong style="color:var(--text-primary)">Format:</strong> 60 min moderated, 5 core tasks</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4><i class="fas fa-lightbulb"></i> Why This Mix?</h4>
+                        <p style="font-size: 0.9375rem; margin: 0;">To identify friction points for both expert efficiency and novice learnability.</p>
+                    </div>
+                </div>
+
+                <div class="grid-2x2" style="margin-top: 1.5rem;">
+                    <div class="card">
+                        <h4><i class="fas fa-desktop"></i> Task execution &amp; screen recording</h4>
+                        <p style="font-size: 0.9375rem; margin: 0;">Keyboard and mouse behavior tracked while participants worked through the 5 core tasks, with the screen recorded.</p>
+                    </div>
+                    <div class="card">
+                        <h4><i class="fas fa-ruler-combined"></i> Usability metrics</h4>
+                        <p style="font-size: 0.9375rem; margin: 0;">Task-level difficulty captured task by task (ease ratings, SUS, NPS) so friction could be quantified, not just described.</p>
+                    </div>
+                    <div class="card">
+                        <h4><i class="fas fa-fingerprint"></i> Interaction patterns</h4>
+                        <p style="font-size: 0.9375rem; margin: 0;">Expectations vs. reality, plus micro-frictions — retries, hesitations and mis-selections — where users' mental model diverged from the interface.</p>
+                    </div>
+                    <div class="card">
+                        <h4><i class="fas fa-comments"></i> Root-cause insights</h4>
+                        <p style="font-size: 0.9375rem; margin: 0;">Open-ended follow-ups captured the context behind each behavior, turning observed mistakes into explainable causes.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Where workflows broke down -->
+            <div class="case-section">
+                <h2><i class="fas fa-tools"></i> Where Workflows Broke Down and Its Impact</h2>
+                <p>Interaction-level usability breakdowns created downstream effects on customer success, support load, and product adoption.</p>
+
+                <div class="grid-2" style="margin-top: 1.5rem;">
+                    <figure class="case-image" style="margin: 0;">
+                        <img src="images/roadrunner-usability-benchmarks.png" alt="Low usability benchmarks — Net Promoter Score 25% against a 40% benchmark, and SUS scores of 54 for casual users and 62 for power users against a 75 benchmark" />
+                        <figcaption>Low usability benchmarks — NPS 25% (vs. 40% benchmark); SUS 54 casual / 62 power users (vs. 75 benchmark)</figcaption>
+                    </figure>
+                    <figure class="case-image" style="margin: 0;">
+                        <img src="images/roadrunner-workflow-pains.png" alt="Pains identified within the workflow — behavioral and open-text findings" />
+                        <figcaption>Pains identified within the workflow (behavioral + open-text)</figcaption>
+                    </figure>
+                </div>
+
+                <h3 style="margin-top: 2.5rem;"><i class="fas fa-star-half-alt"></i> Post-task ease of use</h3>
+                <p>Mean ease rating captured after each of the five core tasks, read alongside the NPS and SUS benchmarks above.</p>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr><th>Ease rating</th><th>Task 1</th><th>Task 2</th><th>Task 3</th><th>Task 4</th><th>Task 5</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Mean</td><td>3.5</td><td>4.0</td><td>3.0</td><td>2.5</td><td>3.0</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p style="font-size: 0.8125rem; color: var(--text-tertiary); font-family: var(--font-mono); margin-top: 0.5rem;">Ratings as recorded in the study; no task scored above 4.0.</p>
+            </div>
+
+            <!-- From Insights to Roadmap -->
+            <div class="case-section">
+                <h2><i class="fas fa-tasks"></i> From Insights to Roadmap</h2>
+                <p>Partnered with the Marketing &amp; Engineering team to prioritize changes based on user impact, business risk, and implementation effort.</p>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Fix</th>
+                                <th>User Impact</th>
+                                <th>Business Criticality</th>
+                                <th>Engineering Effort</th>
+                                <th>Priority</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong style="color:var(--text-primary)">Road selection shortcuts</strong></td>
+                                <td>High</td>
+                                <td>High (core tasks discoverability + CFE dependency)</td>
+                                <td>Low (UI logic + shortcut mapping)</td>
+                                <td><span class="priority-badge p0">P0</span></td>
+                            </tr>
+                            <tr>
+                                <td><strong style="color:var(--text-primary)">Legend as interactive filter</strong></td>
+                                <td>Medium</td>
+                                <td>Medium (discoverability + task time)</td>
+                                <td>High (state logic + interactions)</td>
+                                <td><span class="priority-badge p2">P2</span></td>
+                            </tr>
+                            <tr>
+                                <td><strong style="color:var(--text-primary)">Color contrast improvements</strong></td>
+                                <td>High</td>
+                                <td>Medium (accessibility + visibility)</td>
+                                <td>Low (CSS / theme tokens)</td>
+                                <td><span class="priority-badge p1">P1</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p style="font-size: 0.9375rem; color: var(--text-tertiary); margin-top: 0.5rem;">Priority was driven by user failure frequency + task criticality.</p>
+            </div>
+
+            <!-- Key Findings & Impact -->
+            <div class="case-section">
+                <h2><i class="fas fa-lightbulb"></i> Key Findings &amp; Impact</h2>
+
+                <h3>1. Selection Shortcuts</h3>
+                <div class="highlight-card">
+                    <h4><i class="fas fa-exclamation-circle"></i> Insight</h4>
+                    <p>Selecting/Deselecting multiple roads was difficult. Default action for marking waypoints was not discoverable. Ending route creation didn't match users' mental models.</p>
+                </div>
+                <div class="impact-grid">
+                    <div class="impact-card"><i class="fas fa-check-circle"></i><h4>↑ Task Completion</h4><p>Faster, fewer errors</p></div>
+                    <div class="impact-card"><i class="fas fa-user-check"></i><h4>↓ Casual User Errors</h4><p>Completion without assistance</p></div>
+                    <div class="impact-card"><i class="fas fa-brain"></i><h4>↓ Mental Load</h4><p>Smoother UX, lower confusion</p></div>
+                </div>
+
+                <h3>2. Legend as Interactive Filter &amp; Color Contrast</h3>
+                <div class="highlight-card">
+                    <h4><i class="fas fa-exclamation-circle"></i> Insight</h4>
+                    <p>Users clicked the legend expecting it to behave as a filter. Color classes were too similar → misidentification (<em>"Classification 4 and 5 look the same..."</em>).</p>
+                </div>
+                <div class="before-after">
+                    <div class="ba-item">
+                        <div class="ba-header before">Before</div>
+                        <div class="ba-content">
+                            <img src="images/roadrunner-legend-before.png" alt="Static legend with similar colors" style="max-width: 280px; margin: 0 auto;" />
+                        </div>
+                    </div>
+                    <div class="ba-item">
+                        <div class="ba-header after">After</div>
+                        <div class="ba-content">
+                            <img src="images/roadrunner-legend-after.png" alt="Checkbox filters and high-contrast palette" style="max-width: 280px; margin: 0 auto;" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Impacts & Learnings -->
+            <div class="case-section">
+                <h2><i class="fas fa-graduation-cap"></i> Impacts &amp; Learnings</h2>
+                <div class="grid-3">
+                    <div class="card">
+                        <h4><i class="fas fa-layer-group"></i> Triangulation Exposed Complexity</h4>
+                        <p>Combining behavioral observation, attitudinal feedback, and support analytics exposed usability complexity, leading to targeted fixes.</p>
+                    </div>
+                    <div class="card">
+                        <h4><i class="fas fa-th-large"></i> 2×2 Prioritization Workshop</h4>
+                        <p>Facilitated a 2×2 matrix workshop with Engineering and Design, aligning on P0 fixes for immediate sprints based on user impact vs. implementation effort.</p>
+                    </div>
+                    <div class="card">
+                        <h4><i class="fas fa-users-cog"></i> Engineers in the Room</h4>
+                        <p>Including engineers in user sessions fostered shared understanding, reducing rework and creating a more user-centric development culture.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Next case study -->
+            <div class="next-case">
+                <div>
+                    <span class="label">Next case study</span>
+                    <h3>Improving Discoverability &amp; Usability of ADT Reference Apps</h3>
+                </div>
+                <a href="adt.html" class="btn btn-primary">Continue <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer id="contact">
+        <div class="container">
+            <h2>Let's make a product easier to use.</h2>
+            <p>Have a complex problem worth understanding? I'd love to hear from you.</p>
+            <div class="social-links">
+                <a href="mailto:krabhijeet.brn@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/kumar-abhijeet-6a80bb18b/" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Kumar Abhijeet. Mixed-methods UX Researcher · Human Insight</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
