@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADT Reference Apps — Kumar Abhijeet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="index.html" class="logo">Abhijeet</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.getElementById('navLinks').classList.toggle('open')">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li class="nav-item">
+                <a href="#" class="nav-parent">Case Studies <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown">
+                    <li><a href="paypal.html"><span class="label">Case Study 01 · Fintech</span>PayPal Everywhere</a></li>
+                    <li><a href="roadrunner.html"><span class="label">Case Study 02 · B2B Engineering</span>RoadRunner Scene Builder</a></li>
+                    <li><a href="adt.html"><span class="label">Case Study 03 · Developer Tools</span>ADT Reference Apps</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- CASE HERO -->
+    <section class="container">
+        <div class="case-hero">
+            <a href="index.html#work" class="back-link"><i class="fas fa-arrow-left"></i> All case studies</a>
+            <div class="hero-title-row">
+                <div>
+                    <span class="mono">Case Study 03 // Developer Tools</span>
+                    <h1>Improving Discoverability &amp; Usability of ADT Reference Apps</h1>
+                    <p>Uncovering systemic IA &amp; content issues through multi-source triangulation.</p>
+                </div>
+                <figure class="hero-logo">
+                    <img src="images/image67.png" alt="MathWorks logo" />
+                </figure>
+            </div>
+            <div class="meta-bar">
+                <div class="meta-item"><span class="label">Duration</span><span class="value">8 weeks</span></div>
+                <div class="meta-item"><span class="label">Product</span><span class="value">ADT Toolbox</span></div>
+                <div class="meta-item"><span class="label">Survey impressions</span><span class="value">44k</span></div>
+                <div class="meta-item"><span class="label">Methods</span><span class="value">Foundational</span></div>
+            </div>
+            <div class="hero-media hero-media--single hero-media--tall">
+                <figure class="hero-media__tile">
+                    <div class="hero-media__frame">
+                        <img src="images/adt-product-montage.png" alt="ADT reference applications — Simulink model, highway simulation, and bird's-eye sensor plot" />
+                    </div>
+                    <figcaption>The ADT toolbox and reference apps · representative product screens</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="case-content">
+
+            <!-- Context & Challenges -->
+            <div class="case-section">
+                <h2><i class="fas fa-exclamation-circle"></i> Context &amp; Challenges</h2>
+                <div class="context-split">
+                    <div>
+                        <h3>Context</h3>
+                        <p>MATLAB's Automated Driving Toolbox (ADT) provides algorithms and 6 Reference Apps for autonomous driving prototyping.</p>
+                        <h3>Key User Challenges</h3>
+                        <ul class="challenge-list">
+                            <li>Poor discoverability of apps and documentation.</li>
+                            <li>Lack of realistic, customizable examples.</li>
+                            <li>Difficult integration with other toolboxes.</li>
+                        </ul>
+                    </div>
+                    <figure class="case-image">
+                        <img src="images/adt-product-page.png" alt="MATLAB Automated Driving Toolbox product page showing the reference applications" />
+                        <figcaption>ADT product page · <a href="https://in.mathworks.com/products/automated-driving.html" target="_blank" rel="noopener noreferrer">Image source</a></figcaption>
+                    </figure>
+                </div>
+
+                <h3 class="case-subhead"><i class="fas fa-calendar-alt"></i> Project timeline</h3>
+                <div class="timeline" aria-label="Project timeline across 8 weeks">
+                    <div class="timeline__track">
+                        <div class="timeline__step">
+                            <span class="timeline__dot"></span>
+                            <span class="timeline__phase">Weeks 1–2</span>
+                            <h4>Discovery &amp; framing</h4>
+                            <p>CFE interviews · initial problem framing</p>
+                        </div>
+                        <div class="timeline__step">
+                            <span class="timeline__dot"></span>
+                            <span class="timeline__phase">Weeks 3–4</span>
+                            <h4>Behavioral signals</h4>
+                            <p>Doc-visit analysis · AdWords keyword analysis</p>
+                        </div>
+                        <div class="timeline__step">
+                            <span class="timeline__dot"></span>
+                            <span class="timeline__phase">Weeks 5–6</span>
+                            <h4>User depth</h4>
+                            <p>Intercept survey · 5 in-depth interviews</p>
+                        </div>
+                        <div class="timeline__step">
+                            <span class="timeline__dot"></span>
+                            <span class="timeline__phase">Weeks 7–8</span>
+                            <h4>Synthesis</h4>
+                            <p>Triangulation · prioritization · recommendations</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- My Role & Scope -->
+            <div class="case-section">
+                <h2><i class="fas fa-user-tie"></i> My Role &amp; Scope</h2>
+                <div class="grid-2">
+                    <div class="card">
+                        <h4><i class="fas fa-briefcase"></i> Role</h4>
+                        <ul>
+                            <li>Led an 8-week multi-method study to understand usage of ADT reference apps.</li>
+                            <li>Delivered strategic insights + tactical fixes that improved adoption and usability.</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4><i class="fas fa-users"></i> Collaborators</h4>
+                        <ul>
+                            <li>CFEs (Customer Facing Engineers) for initial problem framing.</li>
+                            <li>An EDG Intern &amp; Team Lead for analysis and synthesis.</li>
+                            <li>Developers &amp; Doc Writers to validate themes and co-create recommendations.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="method-rationale">
+                    <h3><i class="fas fa-question-circle" style="color:var(--accent-cyan);"></i> Why This Approach?</h3>
+                    <ul>
+                        <li>No single method could explain why valuable reference apps went unused</li>
+                        <li>Analytics and SEO showed <em>what</em> users searched for and which apps they visited</li>
+                        <li>CFEs and interviews explained <em>why</em>, revealing the workflows behind the numbers</li>
+                        <li>Triangulation validated insights and workflows before recommendations</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Methods & Activities -->
+            <div class="case-section">
+                <h2><i class="fas fa-flask"></i> Methods &amp; Activities</h2>
+                <p>Six complementary methods, triangulated to separate <em>what</em> was happening from <em>why</em>.</p>
+
+                <h3 class="case-subhead"><i class="fas fa-comments"></i> 1. CFE Interviews</h3>
+                <p>Identified awareness and discoverability issues from Customer Facing Engineers.</p>
+                <figure class="case-image">
+                    <img src="images/adt-cfe-insights.png" alt="Key themes from CFE interviews — awareness and discoverability issues" />
+                    <figcaption>Key themes from CFE interviews — awareness and discoverability issues</figcaption>
+                </figure>
+
+                <h3 class="case-subhead"><i class="fas fa-chart-pie"></i> 2. Doc Visit Analysis</h3>
+                <p>Revealed which apps/examples were under-visited by users.</p>
+                <div class="doc-visits-split">
+                    <div>
+                        <figure class="case-image case-image--chart">
+                            <img src="images/image117.png" alt="Pie chart of total doc visits by reference app — Collision Avoidance 30.0%, Lane Following 27.5%, Automated Parking 27.0%, Lane Keeping 10.4%, Traffic Light Negotiation 5.1%" />
+                            <figcaption>Total doc visits by reference app</figcaption>
+                        </figure>
+                        <p class="doc-visits-insight">Collision Avoidance, Lane Following, and Automated Parking account for ~85% of visits.</p>
+                    </div>
+                    <div>
+                        <div class="table-wrapper">
+                            <table class="table-compact">
+                                <thead>
+                                    <tr>
+                                        <th>Application</th>
+                                        <th>Total Visits</th>
+                                        <th>Avg Visits</th>
+                                        <th>Pages</th>
+                                        <th>Done</th>
+                                        <th>Audited</th>
+                                        <th>Avg Quality</th>
+                                        <th>Ratings</th>
+                                        <th>Avg Rating</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td>Automated Parking Systems</td><td>21,774</td><td>4,355</td><td>5</td><td>5</td><td>4</td><td>3.8</td><td>22</td><td>4.2</td></tr>
+                                    <tr><td>Collision Avoidance Assistance</td><td>24,137</td><td>2,194</td><td>11</td><td>7</td><td>6</td><td>3.8</td><td>16</td><td>4.6</td></tr>
+                                    <tr><td>Lane Following Systems</td><td>22,154</td><td>923</td><td>24</td><td>21</td><td>20</td><td>4.3</td><td>7</td><td>3.6</td></tr>
+                                    <tr class="row-flag"><td>Lane Keeping Systems</td><td>8,401</td><td>1,050</td><td>8</td><td>6</td><td>5</td><td>4.4</td><td>6</td><td>5.0</td></tr>
+                                    <tr class="row-flag"><td>Platooning Systems</td><td>—</td><td>—</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                                    <tr class="row-flag"><td>Traffic Light Negotiation at Intersections</td><td>4,110</td><td>822</td><td>5</td><td>5</td><td>4</td><td>4.8</td><td>4</td><td>2.3</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="source-note">Source: documentation visit analytics. Highlighted rows = apps that needed attention and were addressed later in the process.</p>
+                    </div>
+                </div>
+
+                <h3 class="case-subhead"><i class="fas fa-search"></i> 3. AdWords Keyword Analysis</h3>
+                <p>Identified mismatch between search keywords and doc content.</p>
+                <div class="adwords-split">
+                    <figure class="case-image figure-flush">
+                        <img src="images/adt-adwords-search-terms.png" alt="Google results for the search term “v2v communication platooning system”, dominated by scholarly articles and ScienceDirect rather than our documentation" />
+                        <figcaption>What customers search — academic and third-party pages outrank our docs</figcaption>
+                    </figure>
+                    <div class="adwords-side">
+                        <figure class="case-image figure-flush">
+                            <img src="images/adt-adwords-keywords.png" alt="Google Keyword Planner output — “Platooning Systems” returns 0 monthly searches, while “Platoon Leader” returns 9,900 and “autonomous emergency braking” 49,500" />
+                            <figcaption>Keyword Ideas — “Platooning Systems” has 0 monthly volume; users search “Platoon Leader” (9,900)</figcaption>
+                        </figure>
+                        <p class="adwords-takeaway"><strong>Takeaway:</strong> search demand and doc terminology don't match — a content/SEO gap.</p>
+                    </div>
+                </div>
+
+                <h3 class="case-subhead"><i class="fas fa-square-poll-vertical"></i> 4. Intercept Survey on Doc Pages</h3>
+                <p>44,000 impressions, 127 responses that informed who our users are.</p>
+
+                <div class="chart-trio">
+                    <figure class="case-image">
+                        <img src="images/image116.png" alt="Bar chart — users who visited the page to learn about ADS, Yes vs No" />
+                        <figcaption>Visitors who came to learn about ADS</figcaption>
+                    </figure>
+                    <figure class="case-image">
+                        <img src="images/image108.png" alt="Pie chart of how users reached the reference apps page — MathWorks 59%, Google 27%, Bing 8%, Yahoo 4%, YouTube 1%, LinkedIn 1%" />
+                        <figcaption>How users reached the page</figcaption>
+                    </figure>
+                    <figure class="case-image">
+                        <img src="images/image107.png" alt="Pie chart of visitor domains — Academic 62%, Automotive Industry 28%, Industrial Automation and Machinery 5%, Aero Def 3%, Others 2%" />
+                        <figcaption>Visitor domains</figcaption>
+                    </figure>
+                </div>
+                <p>59% of visitors arrived via MathWorks and 27% via Google; 62% were from academia.</p>
+
+                <h3 class="case-subhead"><i class="fas fa-users"></i> 5. User Interviews</h3>
+                <p>5 in-depth sessions with ADT business customers that led to user roles and goals identification.</p>
+
+                <div class="interview-steps">
+                    <div class="interview-step">
+                        <div>
+                            <span class="interview-step__label">01</span>
+                            <h4>Companies interviewed</h4>
+                            <p>Companies we conducted interviews with.</p>
+                        </div>
+                        <figure class="case-image">
+                            <img src="images/image109.png" alt="Company logos of interview participants — ARAI, KPIT, MOBIS, FEV Motors, Continental, Tata Elxi, FORD, SIAN" />
+                        </figure>
+                    </div>
+                    <div class="interview-step">
+                        <div>
+                            <span class="interview-step__label">02</span>
+                            <h4>Affinity mapping &amp; persona creation</h4>
+                            <p>Analysis of interview notes and creation of user personas.</p>
+                        </div>
+                        <figure class="case-image">
+                            <img src="images/image119.png" alt="Affinity mapping of interview notes and persona creation" />
+                        </figure>
+                    </div>
+                    <div class="interview-step">
+                        <div>
+                            <span class="interview-step__label">03</span>
+                            <h4>Roles &amp; goals</h4>
+                            <p>Roles and goals identified from the interviews.</p>
+                        </div>
+                        <figure class="case-image">
+                            <img src="images/image112.png" alt="User roles and goals — synthesis of five in-depth interview sessions" />
+                        </figure>
+                    </div>
+                </div>
+
+                <h3 class="case-subhead"><i class="fas fa-diagram-project"></i> 6. Data Triangulation &amp; Analysis</h3>
+                <p>Validated insights and workflows, and identified issues.</p>
+                <div class="triangulation">
+                    <div class="triangulation__node"><i class="fas fa-comments"></i>CFE interviews</div>
+                    <span class="triangulation__op">+</span>
+                    <div class="triangulation__node"><i class="fas fa-chart-line"></i>Doc-visit insights</div>
+                    <span class="triangulation__op">+</span>
+                    <div class="triangulation__node"><i class="fas fa-search"></i>AdWords insights</div>
+                    <span class="triangulation__op">+</span>
+                    <div class="triangulation__node"><i class="fas fa-square-poll-vertical"></i>Intercept survey</div>
+                    <span class="triangulation__op">+</span>
+                    <div class="triangulation__node"><i class="fas fa-users"></i>User interviews</div>
+                </div>
+                <div class="stat-row">
+                    <div class="stat-card"><span class="stat-card__value">44,000</span><span class="stat-card__label">Doc-page impressions</span></div>
+                    <div class="stat-card"><span class="stat-card__value">127</span><span class="stat-card__label">Survey responses</span></div>
+                    <div class="stat-card"><span class="stat-card__value">5</span><span class="stat-card__label">Depth interviews</span></div>
+                </div>
+            </div>
+
+            <!-- Key Findings -->
+            <div class="case-section">
+                <h2><i class="fas fa-lightbulb"></i> Key Findings</h2>
+                <p>Four findings explained why valuable reference apps went unused — each validated across five research sources.</p>
+
+                <div class="insight-grid insight-grid--2x2">
+                    <article class="insight-card">
+                        <div class="insight-card__media"><i class="fas fa-search-minus"></i></div>
+                        <div class="insight-card__body">
+                            <h4>Discoverability issues</h4>
+                            <p>Most users found ref apps via CFEs, not search/docs. Google search rarely surfaced ADT pages.</p>
+                        </div>
+                    </article>
+
+                    <article class="insight-card">
+                        <div class="insight-card__media"><i class="fas fa-sitemap"></i></div>
+                        <div class="insight-card__body">
+                            <h4>Navigation issues</h4>
+                            <p>The categorization and structure of the ref apps were found to be unintuitive with no guided entry points in the website.</p>
+                        </div>
+                    </article>
+
+                    <article class="insight-card">
+                        <div class="insight-card__media"><i class="fas fa-sliders-h"></i></div>
+                        <div class="insight-card__body">
+                            <h4>Customization</h4>
+                            <p>Customization of apps was difficult, esp. for less experienced users. Several reports emerged about the integration with Radar/Lidar toolbox being poorly documented.</p>
+                        </div>
+                    </article>
+
+                    <article class="insight-card">
+                        <div class="insight-card__media"><i class="fas fa-car-crash"></i></div>
+                        <div class="insight-card__body">
+                            <h4>Apps far from reality</h4>
+                            <p>Users want more realistic, end-to-end examples. Several requests made for standardized scenario generation &amp; metrics (for validation/regulation).</p>
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+
+            <!-- Impact -->
+            <div class="case-section">
+                <h2><i class="fas fa-chart-line"></i> Impact</h2>
+                <p>The research improved discoverability and app quality, and reduced support load on CFEs.</p>
+                <div class="impact-grid">
+                    <div class="impact-card">
+                        <i class="fas fa-eye"></i>
+                        <p class="impact-metric impact-metric--cyan">↑ 37%</p>
+                        <p><span class="impact-label">Visits</span>Insights improved discoverability of the apps and supported higher adoption among users, increasing visits by 37%.</p>
+                    </div>
+                    <div class="impact-card">
+                        <i class="fas fa-star"></i>
+                        <p class="impact-metric impact-metric--amber">↑ 37%</p>
+                        <p><span class="impact-label">App rating</span>Reference Apps became more useful, relevant, and realistic, increasing app rating by an average of 37%.</p>
+                    </div>
+                    <div class="impact-card">
+                        <i class="fas fa-headset"></i>
+                        <h4>Support Load</h4>
+                        <p>Made reference apps more accessible → reducing user frustration, support load on CFEs, and customer support tickets.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Reflections & Learnings -->
+            <div class="case-section">
+                <h2><i class="fas fa-graduation-cap"></i> Reflections &amp; Learnings</h2>
+                <div class="grid-2x2">
+                    <div class="card">
+                        <h4><i class="fas fa-layer-group"></i> Multi-Method Power</h4>
+                        <p>Multi-method research (analytics + SEO + qual interviews) revealed insights no single method could.</p>
+                    </div>
+                    <div class="card">
+                        <h4><i class="fas fa-handshake"></i> Early Stakeholder Engagement</h4>
+                        <p>Engaging stakeholders (Devs, Doc writers, CFEs) early built empathy &amp; accelerated adoption of findings.</p>
+                    </div>
+                    <div class="card">
+                        <h4><i class="fas fa-chart-line"></i> Connecting UX to Business</h4>
+                        <p>Strategic research showed I can connect UX to business goals (adoption, discoverability, retention).</p>
+                    </div>
+                    <div class="card">
+                        <h4><i class="fas fa-expand-arrows-alt"></i> Beyond Usability</h4>
+                        <p>Importance of thinking beyond Usability — tackling awareness, onboarding, documentation.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Next case study -->
+            <div class="next-case">
+                <div>
+                    <span class="label">Back to start</span>
+                    <h3>Measuring Cross-Market Launch Success: PayPal Everywhere</h3>
+                </div>
+                <a href="paypal.html" class="btn btn-primary">Continue <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer id="contact">
+        <div class="container">
+            <h2>Let's make a product easier to use.</h2>
+            <p>Have a complex problem worth understanding? I'd love to hear from you.</p>
+            <div class="social-links">
+                <a href="mailto:krabhijeet.brn@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/kumar-abhijeet-6a80bb18b/" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Kumar Abhijeet. Mixed-methods UX Researcher · Human Insight</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

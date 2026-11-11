@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Python env (unused, per README)
+.venv/
+__pycache__/
+*.pyc
+
+# Temp / lock files
+.~lock.*
+~$*
+*.tmp
+
+# Resume backups
+documents/backups/

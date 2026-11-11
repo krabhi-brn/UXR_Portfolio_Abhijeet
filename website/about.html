@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About — Kumar Abhijeet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="index.html" class="logo">Abhijeet</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.getElementById('navLinks').classList.toggle('open')">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li class="nav-item">
+                <a href="#" class="nav-parent">Case Studies <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown">
+                    <li><a href="paypal.html"><span class="label">Case Study 01 · Fintech</span>PayPal Everywhere</a></li>
+                    <li><a href="roadrunner.html"><span class="label">Case Study 02 · B2B Engineering</span>RoadRunner Scene Builder</a></li>
+                    <li><a href="adt.html"><span class="label">Case Study 03 · Developer Tools</span>ADT Reference Apps</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero container">
+        <span class="mono">About</span>
+        <h1>Kumar Abhijeet</h1>
+        <p class="title-line">UX Researcher — Mixed-methods · Quant UX · Consumer Insights</p>
+        <p class="about-summary">Mixed-methods UX Researcher with 4+ years of experience turning behavioral data, survey analytics and qualitative insight into product strategy — for global fintech products and complex desktop software.</p>
+    </section>
+
+    <!-- WHAT I DO -->
+    <section class="section-padding">
+        <div class="container">
+            <h2>What I Do</h2>
+            <p style="max-width: 700px; margin-bottom: 2.5rem;">Three ways I answer product questions — chosen by the question, not by habit.</p>
+            <div class="grid-3">
+                <div class="card">
+                    <h4><i class="fas fa-chart-bar"></i> Measurement &amp; Quant</h4>
+                    <p style="font-size: 0.9375rem; margin: 0 0 0.75rem;">Large-scale surveys, in-app listening, VoC analytics and composite metrics to measure what's changing — at scale, over time.</p>
+                    <div class="chips">
+                        <span class="chip">Surveys</span><span class="chip">In-app feedback</span><span class="chip">Social listening</span><span class="chip">UX metrics</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h4><i class="fas fa-users"></i> Evaluative Research</h4>
+                    <p style="font-size: 0.9375rem; margin: 0 0 0.75rem;">Usability testing, moderated sessions and UX benchmarks to find where a workflow breaks and why.</p>
+                    <div class="chips">
+                        <span class="chip">Usability testing</span><span class="chip">Interviews</span><span class="chip">Benchmarking</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h4><i class="fas fa-compass"></i> Foundational Research</h4>
+                    <p style="font-size: 0.9375rem; margin: 0 0 0.75rem;">In-depth interviews, field research and discovery to map a new problem space before a single pixel changes.</p>
+                    <div class="chips">
+                        <span class="chip">Interviews</span><span class="chip">Ethnography</span><span class="chip">Discovery</span><span class="chip">IA &amp; content</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section-padding section-border">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="exp-list">
+
+                <div class="exp-item">
+                    <div class="exp-item__meta">
+                        <span class="exp-item__role">Senior Associate – Experience Research</span>
+                        <span class="exp-item__company">JPMorgan Chase, Hyderabad</span>
+                        <span class="exp-item__dates">Feb 2026 – Present</span>
+                    </div>
+                    <ul>
+                        <li>Leading UX research for a legacy case-management platform used by Customer Specialists (non-fraud disputes) — applying workflow and cognitive-load analysis to cut resolution time and effort.</li>
+                        <li>Defining the UX for an Agentic AI feature in a fraud-dispute tool, running early evaluative research to validate AI-assisted decision-making and lift specialist accuracy and confidence.</li>
+                        <li>Establishing UX metrics and research plans for both initiatives to baseline performance and measure experience improvements.</li>
+                        <li>Built an LLM-powered, human-in-the-loop Knowledge Base — a database plus task-specific agents that maintain personas, pains and workflow challenges and draft low-to-mid-fidelity prototypes, accelerating discovery for product teams.</li>
+                    </ul>
+                </div>
+
+                <div class="exp-item">
+                    <div class="exp-item__meta">
+                        <span class="exp-item__role">Experience Research Specialist</span>
+                        <span class="exp-item__company">PayPal, Bengaluru</span>
+                        <span class="exp-item__dates">Jan 2025 – Dec 2025</span>
+                    </div>
+                    <ul>
+                        <li>Ran pre/post surveys with 5,000+ users and built a continuous listening system across the US and Germany to evaluate the PayPal Everywhere launch.</li>
+                        <li>Developed a composite UX metric (PCA + Key Driver Analysis) to benchmark product health and surface early risk signals.</li>
+                        <li>Improved user satisfaction scores by 15% and cut issue-detection time from months to weeks.</li>
+                    </ul>
+                </div>
+
+                <div class="exp-item">
+                    <div class="exp-item__meta">
+                        <span class="exp-item__role">UX Researcher</span>
+                        <span class="exp-item__company">MathWorks, Hyderabad</span>
+                        <span class="exp-item__dates">Dec 2022 – Dec 2024</span>
+                    </div>
+                    <ul>
+                        <li>Led 17+ end-to-end mixed-methods studies across 90+ participant sessions for automated-driving simulation and ADAS testing tools.</li>
+                        <li>Ran foundational and evaluative research on RoadRunner and the ADT reference apps, uncovering workflow gaps in scenario authoring, validation and deployment.</li>
+                        <li>Drove a 20% lift in application ratings and a 37% rise in product visits by informing redesigns with behavioral and documentation analytics.</li>
+                    </ul>
+                </div>
+
+                <div class="exp-item">
+                    <div class="exp-item__meta">
+                        <span class="exp-item__role">Associate UX Researcher</span>
+                        <span class="exp-item__company">Kore.ai, Hyderabad</span>
+                        <span class="exp-item__dates">Jun 2022 – Nov 2022</span>
+                    </div>
+                    <ul>
+                        <li>Combined Mixpanel analytics with user interviews to find and reduce key drop-off points in the Kore.ai XO bot-building platform.</li>
+                        <li>Ran heuristic evaluations and moderated sessions for an internal messaging tool, supporting its integration into the WorkAssist workspace app.</li>
+                    </ul>
+                </div>
+
+                <div class="exp-item">
+                    <div class="exp-item__meta">
+                        <span class="exp-item__role">Design Research Intern</span>
+                        <span class="exp-item__company">Pensaar Design, Bengaluru</span>
+                        <span class="exp-item__dates">Apr 2022 – May 2022</span>
+                    </div>
+                    <ul>
+                        <li>Conducted ethnographic field research with 250+ banking agents and analyzed government MIS data to support World Bank service-improvement initiatives.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section-padding">
+        <div class="container">
+            <h2>Skills &amp; Expertise</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <h4><i class="fas fa-search"></i> Research Methods</h4>
+                    <div class="chips">
+                        <span class="chip">Qualitative</span><span class="chip">Quantitative</span><span class="chip">Mixed-methods</span><span class="chip">Usability testing</span><span class="chip">User interviews</span><span class="chip">Diary studies</span><span class="chip">Ethnography</span><span class="chip">Concept testing</span><span class="chip">Survey design</span><span class="chip">UX benchmarking</span><span class="chip">Key driver analysis</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h4><i class="fas fa-toolbox"></i> Tools &amp; Platforms</h4>
+                    <div class="chips">
+                        <span class="chip">Mixpanel</span><span class="chip">Sprig / Qualtrics</span><span class="chip">UserTesting</span><span class="chip">Forsta</span><span class="chip">Power BI</span><span class="chip">UnitQ</span><span class="chip">R</span><span class="chip">Excel</span><span class="chip">Figma</span><span class="chip">Miro</span><span class="chip">Python</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h4><i class="fas fa-chart-line"></i> Product &amp; Data Analytics</h4>
+                    <div class="chips">
+                        <span class="chip">Product analytics</span><span class="chip">Cohort analysis</span><span class="chip">KPI tracking</span><span class="chip">A/B testing</span><span class="chip">Funnel analysis</span><span class="chip">Journey mapping</span><span class="chip">Statistical analysis</span><span class="chip">Triangulation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section-padding section-border">
+        <div class="container">
+            <h2>Education</h2>
+            <div>
+                <div class="edu-item">
+                    <div>
+                        <div class="edu-item__degree">M.Sc. in Cognitive Science</div>
+                        <div class="edu-item__school">Centre of Behavioural and Cognitive Sciences, Allahabad</div>
+                    </div>
+                    <span class="edu-item__dates">2019 – 2021</span>
+                </div>
+                <div class="edu-item">
+                    <div>
+                        <div class="edu-item__degree">B.Sc. in Information Technology</div>
+                        <div class="edu-item__school">St. Xavier's College, Ranchi</div>
+                    </div>
+                    <span class="edu-item__dates">2015 – 2018</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contact">
+        <div class="container">
+            <h2>Let's make a product easier to use.</h2>
+            <p>Have a complex problem worth understanding? I'd love to hear from you.</p>
+            <div class="social-links">
+                <a href="mailto:krabhijeet.brn@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/kumar-abhijeet-6a80bb18b/" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Kumar Abhijeet. Mixed-methods UX Researcher · Human Insight</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

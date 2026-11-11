@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kumar Abhijeet — Mixed-Methods UX Researcher</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="index.html" class="logo">Abhijeet</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.getElementById('navLinks').classList.toggle('open')">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li class="nav-item">
+                <a href="#" class="nav-parent">Case Studies <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown">
+                    <li><a href="paypal.html"><span class="label">Case Study 01 · Fintech</span>PayPal Everywhere</a></li>
+                    <li><a href="roadrunner.html"><span class="label">Case Study 02 · B2B Engineering</span>RoadRunner Scene Builder</a></li>
+                    <li><a href="adt.html"><span class="label">Case Study 03 · Developer Tools</span>ADT Reference Apps</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero container">
+        <div class="hero-content">
+            <div class="hero-tag"><i class="fas fa-star"></i> Mixed-Methods UX Researcher</div>
+            <h1>Hi, I'm <span style="color: var(--accent-cyan);">Abhijeet</span></h1>
+            <p>I drive product strategy through mixed-methods research, connecting user insights to business outcomes.</p>
+            <div class="hero-cta">
+                <a href="#work" class="btn btn-primary"><i class="fas fa-briefcase"></i> View My Work</a>
+                <a href="about.html" class="btn btn-secondary"><i class="fas fa-user"></i> About Me</a>
+            </div>
+            <a href="#approach" class="scroll-indicator">
+                <span class="mono">Scroll down to know more</span>
+                <i class="fas fa-arrow-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- APPROACH -->
+    <section id="approach" class="section-padding section-border">
+        <div class="container">
+            <h2>My Approach</h2>
+            <p style="max-width: 600px; margin-bottom: 2.5rem;">How I turn complexity into confident product decisions.</p>
+            <div class="grid-4">
+                <div class="approach-card">
+                    <h3><i class="fas fa-search"></i> Discovery</h3>
+                    <p>Partnering with customer-facing teams to surface recurring workflow breakdowns and validate problem signals.</p>
+                </div>
+                <div class="approach-card">
+                    <h3><i class="fas fa-eye"></i> Observation</h3>
+                    <p>Watching the work, not just the workarounds. Behavioral observation reveals "invisible" friction missed in interviews.</p>
+                </div>
+                <div class="approach-card">
+                    <h3><i class="fas fa-project-diagram"></i> Triangulation</h3>
+                    <p>Combining behavioral data, survey evidence, and qualitative depth to ensure insights are robust and actionable.</p>
+                </div>
+                <div class="approach-card">
+                    <h3><i class="fas fa-handshake"></i> Collaboration</h3>
+                    <p>Translating findings into concrete design interventions and facilitating prioritization workshops with Engineering.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SELECTED WORK -->
+    <section id="work" class="section-padding section-border">
+        <div class="container">
+            <h2>Selected Work</h2>
+            <p style="max-width: 600px;">Three case studies spanning fintech, B2B engineering, and developer tools.</p>
+
+            <div class="case-grid">
+                <a href="paypal.html" class="case-card">
+                    <span class="mono">Case Study 01 · Fintech</span>
+                    <h3>Measuring Cross-Market Launch Success: PayPal Everywhere</h3>
+                    <p>Building a continuous listening system for PayPal Everywhere across the US and Germany.</p>
+                    <div class="card-tags">
+                        <span>Large-scale surveys</span>
+                        <span>In-app feedback</span>
+                        <span>Social listening</span>
+                    </div>
+                    <span class="read-more">Read case study <i class="fas fa-arrow-right"></i></span>
+                </a>
+
+                <a href="roadrunner.html" class="case-card">
+                    <span class="mono">Case Study 02 · B2B Engineering</span>
+                    <h3>Improving Road Selection &amp; Feature Discoverability in RoadRunner</h3>
+                    <p>Diagnosing interaction-level barriers in RoadRunner Scene Builder to improve core task efficiency.</p>
+                    <div class="card-tags">
+                        <span>User Interviews</span>
+                        <span>Usability testing</span>
+                        <span>UX metrics</span>
+                    </div>
+                    <span class="read-more">Read case study <i class="fas fa-arrow-right"></i></span>
+                </a>
+
+                <a href="adt.html" class="case-card">
+                    <span class="mono">Case Study 03 · Developer Tools</span>
+                    <h3>Improving Discoverability &amp; Usability of ADT Reference Apps</h3>
+                    <p>Uncovering systemic IA &amp; content issues through multi-source triangulation.</p>
+                    <div class="card-tags">
+                        <span>User Interviews</span>
+                        <span>SEO optimization</span>
+                        <span>Data analysis</span>
+                    </div>
+                    <span class="read-more">Read case study <i class="fas fa-arrow-right"></i></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contact">
+        <div class="container">
+            <h2>Let's make a product easier to use.</h2>
+            <p>Have a complex problem worth understanding? I'd love to hear from you.</p>
+            <div class="social-links">
+                <a href="mailto:krabhijeet.brn@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/kumar-abhijeet-6a80bb18b/" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Kumar Abhijeet. Mixed-methods UX Researcher · Human Insight</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
