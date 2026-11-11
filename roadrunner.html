@@ -37,9 +37,16 @@
     <section class="container">
         <div class="case-hero">
             <a href="index.html#work" class="back-link"><i class="fas fa-arrow-left"></i> All case studies</a>
-            <span class="mono">Case Study 02 // B2B Engineering</span>
-            <h1>Improving Core Task Efficiency</h1>
-            <p>Our customers reported difficulty learning and using a complex engineering tool. We needed to diagnose and fix usability issues to improve core task efficiency and reduce support load.</p>
+            <div class="hero-title-row">
+                <div>
+                    <span class="mono">Case Study 02 // B2B Engineering</span>
+                    <h1>Improving Core Task Efficiency</h1>
+                    <p>Our customers reported difficulty learning and using a complex engineering tool. We needed to diagnose and fix usability issues to improve core task efficiency and reduce support load.</p>
+                </div>
+                <figure class="hero-logo">
+                    <img src="images/image67.png" alt="MathWorks logo" style="width: 115px;" />
+                </figure>
+            </div>
             <div class="meta-bar">
                 <div class="meta-item"><span class="label">Duration</span><span class="value">4 weeks</span></div>
                 <div class="meta-item"><span class="label">Product</span><span class="value">RoadRunner</span></div>
@@ -55,16 +62,34 @@
             <!-- Context & Challenge -->
             <div class="case-section">
                 <h2><i class="fas fa-exclamation-circle"></i> Context &amp; Challenge</h2>
-                <h3>Context</h3>
-                <p>RoadRunner is a tool that helps Engineers create 3D driving scenes for testing self-driving and driver-assistance systems. Users load real-world maps into the tool and then pick roads, lanes, and junctions to build scenes for simulation.</p>
+                <div class="context-split">
+                    <div>
+                        <h3>Context</h3>
+                        <p>RoadRunner is a tool that helps Engineers create 3D driving scenes for testing self-driving and driver-assistance systems. Users load real-world maps into the tool and then pick roads, lanes, and junctions to build scenes for simulation.</p>
+                    </div>
 
-                <h3>The UX Challenge</h3>
-                <p>While CFEs reported that users struggled with road selection and scene creation, the root causes were unknown:</p>
-                <ul style="color: var(--text-secondary); padding-left: 1.5rem;">
-                    <li>Were users struggling with conceptual understanding or interaction design?</li>
-                    <li>Which parts of the workflow caused the most friction for power vs. casual users?</li>
-                    <li>How could we fix these issues without disrupting existing expert workflows?</li>
-                </ul>
+                    <figure class="case-image" style="margin: 0;">
+                        <img src="images/image9.png" alt="RoadRunner tool default screen" />
+                        <figcaption>RoadRunner tool default screen</figcaption>
+                    </figure>
+                </div>
+
+                <div class="context-split" style="margin-top: 0;">
+                    <div>
+                        <h3>The UX Challenge</h3>
+                        <p>While CFEs reported that users struggled with road selection and scene creation, the root causes were unknown:</p>
+                        <ul style="color: var(--text-secondary); padding-left: 1.5rem;">
+                            <li>Were users struggling with conceptual understanding or interaction design?</li>
+                            <li>Which parts of the workflow caused the most friction for power vs. casual users?</li>
+                            <li>How could we fix these issues without disrupting existing expert workflows?</li>
+                        </ul>
+                    </div>
+
+                    <figure class="case-image" style="margin: 0;">
+                        <img src="images/image72.png" alt="RoadRunner Scene Builder interface for loading real-world maps and picking roads, lanes and junctions" />
+                        <figcaption>RoadRunner Scene Builder — loading maps and selecting roads, lanes &amp; junctions</figcaption>
+                    </figure>
+                </div>
             </div>
 
             <!-- My Role & Scope -->
@@ -130,34 +155,45 @@
                 <div class="grid-2">
                     <div class="card">
                         <h4><i class="fas fa-vial"></i> Session Setup</h4>
-                        <ul>
-                            <li><strong style="color:var(--text-primary)">3 Casual Users:</strong> 1–3 yrs experience</li>
-                            <li><strong style="color:var(--text-primary)">3 Power Users:</strong> 4+ yrs experience</li>
-                            <li><strong style="color:var(--text-primary)">Format:</strong> 60 min moderated, 5 core tasks</li>
-                        </ul>
+                        <div class="persona-row">
+                            <figure class="persona">
+                                <div class="persona-avatar"><img src="images/img101.png" alt="Casual user persona" /></div>
+                                <figcaption><strong>3 Casual Users</strong><span>1–3 yrs experience</span></figcaption>
+                            </figure>
+                            <figure class="persona">
+                                <div class="persona-avatar"><img src="images/img102.png" alt="Power user persona" /></div>
+                                <figcaption><strong>3 Power Users</strong><span>4+ yrs experience</span></figcaption>
+                            </figure>
+                        </div>
+                        <p class="session-format"><i class="fas fa-stopwatch"></i><strong>Format:</strong> 60 min moderated, 5 core tasks</p>
                     </div>
                     <div class="card">
-                        <h4><i class="fas fa-lightbulb"></i> Why This Mix?</h4>
-                        <p style="font-size: 0.9375rem; margin: 0;">To identify friction points for both expert efficiency and novice learnability.</p>
+                        <h4><i class="fas fa-lightbulb"></i> Why This Mix &amp; Method</h4>
+                        <p><strong style="color: var(--text-primary);">Why this mix</strong><br />Casual + power users surfaced friction for both expert efficiency and novice learnability.</p>
+                        <p style="margin: 0;"><strong style="color: var(--text-primary);">Why this method</strong><br />Moderated sessions observed live behavior, revealing "invisible" friction that self-reported data would miss.</p>
                     </div>
                 </div>
 
-                <div class="grid-2x2" style="margin-top: 1.5rem;">
+                <div class="capture-group">
                     <div class="card">
-                        <h4><i class="fas fa-desktop"></i> Task execution &amp; screen recording</h4>
-                        <p style="font-size: 0.9375rem; margin: 0;">Keyboard and mouse behavior tracked while participants worked through the 5 core tasks, with the screen recorded.</p>
-                    </div>
-                    <div class="card">
+                        <div class="card-media"><img src="images/img104.png" alt="Task ease-rating scale captured after each task" /></div>
                         <h4><i class="fas fa-ruler-combined"></i> Usability metrics</h4>
-                        <p style="font-size: 0.9375rem; margin: 0;">Task-level difficulty captured task by task (ease ratings, SUS, NPS) so friction could be quantified, not just described.</p>
+                        <p style="margin: 0;">Task-level difficulty captured task by task (ease ratings, SUS, NPS) so friction could be quantified, not just described.</p>
                     </div>
                     <div class="card">
-                        <h4><i class="fas fa-fingerprint"></i> Interaction patterns</h4>
-                        <p style="font-size: 0.9375rem; margin: 0;">Expectations vs. reality, plus micro-frictions — retries, hesitations and mis-selections — where users' mental model diverged from the interface.</p>
+                        <div class="card-media card-media--video"><i class="fas fa-play"></i><span>Screen recording</span></div>
+                        <h4><i class="fas fa-desktop"></i> Task execution &amp; tool interaction</h4>
+                        <p style="margin: 0;">Screen recording followed participants through the 5 core tasks, capturing how they moved through the RoadRunner interface.</p>
                     </div>
                     <div class="card">
-                        <h4><i class="fas fa-comments"></i> Root-cause insights</h4>
-                        <p style="font-size: 0.9375rem; margin: 0;">Open-ended follow-ups captured the context behind each behavior, turning observed mistakes into explainable causes.</p>
+                        <div class="card-media"><img src="images/img103.png" alt="Mouse and keyboard interaction patterns showing retries and hesitations" /></div>
+                        <h4><i class="fas fa-mouse-pointer"></i> Keyboard &amp; mouse interaction</h4>
+                        <p style="margin: 0;">Keystrokes, mouse movement and clicks exposed retries, hesitations and mis-selections that pointed to the underlying friction.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-media"><img src="images/img105.png" alt="Open-ended participant feedback" /></div>
+                        <h4><i class="fas fa-comments"></i> Qualitative responses (open-ended)</h4>
+                        <p style="margin: 0;">Open-ended follow-ups captured the context behind each behavior, turning observed mistakes into explainable causes.</p>
                     </div>
                 </div>
             </div>
@@ -167,7 +203,7 @@
                 <h2><i class="fas fa-tools"></i> Where Workflows Broke Down and Its Impact</h2>
                 <p>Interaction-level usability breakdowns created downstream effects on customer success, support load, and product adoption.</p>
 
-                <div class="grid-2" style="margin-top: 1.5rem;">
+                <div class="grid-2 equal-media" style="margin-top: 1.5rem;">
                     <figure class="case-image" style="margin: 0;">
                         <img src="images/roadrunner-usability-benchmarks.png" alt="Low usability benchmarks — Net Promoter Score 25% against a 40% benchmark, and SUS scores of 54 for casual users and 62 for power users against a 75 benchmark" />
                         <figcaption>Low usability benchmarks — NPS 25% (vs. 40% benchmark); SUS 54 casual / 62 power users (vs. 75 benchmark)</figcaption>
@@ -186,11 +222,18 @@
                             <tr><th>Ease rating</th><th>Task 1</th><th>Task 2</th><th>Task 3</th><th>Task 4</th><th>Task 5</th></tr>
                         </thead>
                         <tbody>
-                            <tr><td>Mean</td><td>3.5</td><td>4.0</td><td>3.0</td><td>2.5</td><td>3.0</td></tr>
+                            <tr>
+                                <td>Mean</td>
+                                <td><span class="ease-pill ease-low">3.5</span></td>
+                                <td><span class="ease-pill ease-ok">4.0</span></td>
+                                <td><span class="ease-pill ease-low">3.0</span></td>
+                                <td><span class="ease-pill ease-lowest">2.5</span></td>
+                                <td><span class="ease-pill ease-low">3.0</span></td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
-                <p style="font-size: 0.8125rem; color: var(--text-tertiary); font-family: var(--font-mono); margin-top: 0.5rem;">Ratings as recorded in the study; no task scored above 4.0.</p>
+                <p style="font-size: 0.8125rem; color: var(--text-tertiary); font-family: var(--font-mono); margin-top: 0.5rem;">Scores below 4.0 are highlighted — no task reached the 4.0 ease benchmark.</p>
             </div>
 
             <!-- From Insights to Roadmap -->
@@ -211,29 +254,29 @@
                         <tbody>
                             <tr>
                                 <td><strong style="color:var(--text-primary)">Road selection shortcuts</strong></td>
-                                <td>High</td>
-                                <td>High (core tasks discoverability + CFE dependency)</td>
-                                <td>Low (UI logic + shortcut mapping)</td>
+                                <td><span class="pill pill--green">High</span></td>
+                                <td><span class="pill pill--green">High</span> core tasks discoverability + CFE dependency</td>
+                                <td><span class="pill pill--green">Low</span> UI logic + shortcut mapping</td>
                                 <td><span class="priority-badge p0">P0</span></td>
                             </tr>
                             <tr>
                                 <td><strong style="color:var(--text-primary)">Legend as interactive filter</strong></td>
-                                <td>Medium</td>
-                                <td>Medium (discoverability + task time)</td>
-                                <td>High (state logic + interactions)</td>
+                                <td><span class="pill pill--amber">Medium</span></td>
+                                <td><span class="pill pill--amber">Medium</span> discoverability + task time</td>
+                                <td><span class="pill pill--red">High</span> state logic + interactions</td>
                                 <td><span class="priority-badge p2">P2</span></td>
                             </tr>
                             <tr>
                                 <td><strong style="color:var(--text-primary)">Color contrast improvements</strong></td>
-                                <td>High</td>
-                                <td>Medium (accessibility + visibility)</td>
-                                <td>Low (CSS / theme tokens)</td>
+                                <td><span class="pill pill--green">High</span></td>
+                                <td><span class="pill pill--amber">Medium</span> accessibility + visibility</td>
+                                <td><span class="pill pill--green">Low</span> CSS / theme tokens</td>
                                 <td><span class="priority-badge p1">P1</span></td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-                <p style="font-size: 0.9375rem; color: var(--text-tertiary); margin-top: 0.5rem;">Priority was driven by user failure frequency + task criticality.</p>
+                <p style="font-size: 0.9375rem; color: var(--text-tertiary); margin-top: 0.5rem;">Priority driven by user failure frequency + task criticality. <span style="font-family: var(--font-mono); font-size: 0.8125rem; color: var(--text-muted);">Green = favorable (high value / low effort) · amber = moderate · red = costly</span></p>
             </div>
 
             <!-- Key Findings & Impact -->
@@ -243,33 +286,152 @@
                 <h3>1. Selection Shortcuts</h3>
                 <div class="highlight-card">
                     <h4><i class="fas fa-exclamation-circle"></i> Insight</h4>
-                    <p>Selecting/Deselecting multiple roads was difficult. Default action for marking waypoints was not discoverable. Ending route creation didn't match users' mental models.</p>
+                    <p>Three core actions hid behind multi-key shortcuts. Selecting roads required an unintuitive Shift + Ctrl + Left-click (3.5/5 ease), marking waypoints hid behind an undiscoverable Shift + Right-click (2.5/5 ease), and ending route creation didn't match users' mental models from other tools (3/5 ease).</p>
                 </div>
+                <p class="design-change"><i class="fas fa-pencil-ruler"></i> <strong>Design change:</strong> Replaced hidden multi-key shortcuts with single, discoverable actions — Left click to select, Ctrl + Left click to deselect, Right click to mark waypoints, and Ctrl or Space to end the route.</p>
+                <div class="compare">
+                    <div class="compare-item">
+                        <div class="compare-head">
+                            <span class="compare-title">Select / deselect roads</span>
+                        </div>
+                        <div class="compare-flow">
+                            <div class="compare-side compare-side--before">
+                                <span class="compare-tag before">Before · 3.5 / 5 ease</span>
+                                <div class="compare-media">
+                                    <span class="key-row">
+                                        <img class="key-icon" src="images/shift_icon.png" alt="Shift key" />
+                                        <span class="key-plus">+</span>
+                                        <img class="key-icon" src="images/ctrl_icon.png" alt="Ctrl key" />
+                                        <span class="key-plus">+</span>
+                                        <img class="key-icon" src="images/LMB_icon.png" alt="Left mouse button" />
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="compare-arrow"><i class="fas fa-arrow-right"></i></span>
+                            <div class="compare-side compare-side--after">
+                                <span class="compare-tag after">After</span>
+                                <div class="compare-media">
+                                    <span class="key-group">
+                                        <img class="key-icon" src="images/LMB_icon.png" alt="Left mouse button" />
+                                        <span class="key-caption">select</span>
+                                    </span>
+                                    <span class="key-sep">·</span>
+                                    <span class="key-group">
+                                        <span class="key-row">
+                                            <img class="key-icon" src="images/ctrl_icon.png" alt="Ctrl key" />
+                                            <span class="key-plus">+</span>
+                                            <img class="key-icon" src="images/LMB_icon.png" alt="Left mouse button" />
+                                        </span>
+                                        <span class="key-caption">deselect</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="compare-item">
+                        <div class="compare-head">
+                            <span class="compare-title">Mark waypoint</span>
+                        </div>
+                        <div class="compare-flow">
+                            <div class="compare-side compare-side--before">
+                                <span class="compare-tag before">Before · 2.5 / 5 ease</span>
+                                <div class="compare-media">
+                                    <span class="key-row">
+                                        <img class="key-icon" src="images/shift_icon.png" alt="Shift key" />
+                                        <span class="key-plus">+</span>
+                                        <img class="key-icon" src="images/RMB_icon.png" alt="Right mouse button" />
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="compare-arrow"><i class="fas fa-arrow-right"></i></span>
+                            <div class="compare-side compare-side--after">
+                                <span class="compare-tag after">After</span>
+                                <div class="compare-media">
+                                    <img class="key-icon" src="images/RMB_icon.png" alt="Right mouse button" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="compare-item">
+                        <div class="compare-head">
+                            <span class="compare-title">End route creation</span>
+                        </div>
+                        <div class="compare-flow">
+                            <div class="compare-side compare-side--before">
+                                <span class="compare-tag before">Before · 3 / 5 ease</span>
+                                <div class="compare-media">
+                                    <span class="key-group">
+                                        <img class="key-icon" src="images/esc_icon.png" alt="Esc key" />
+                                        <span class="key-caption">Expected behavior</span>
+                                    </span>
+                                    <span class="key-group">
+                                        <img class="key-icon" src="images/enter_icon.png" alt="Enter key" />
+                                        <span class="key-caption">DSD influenced behavior</span>
+                                    </span>
+                                    <span class="key-group">
+                                        <img class="key-icon" src="images/space_icon.png" alt="Space key" />
+                                        <span class="key-caption">RR influenced behavior</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="compare-arrow"><i class="fas fa-arrow-right"></i></span>
+                            <div class="compare-side compare-side--after">
+                                <span class="compare-tag after">After</span>
+                                <div class="compare-media">
+                                    <span class="key-row">
+                                        <img class="key-icon" src="images/ctrl_icon.png" alt="Ctrl key" />
+                                        <span class="key-sep">or</span>
+                                        <img class="key-icon" src="images/space_icon.png" alt="Space key" />
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="impact-heading"><i class="fas fa-chart-line"></i> Impact</h3>
                 <div class="impact-grid">
                     <div class="impact-card"><i class="fas fa-check-circle"></i><h4>↑ Task Completion</h4><p>Faster, fewer errors</p></div>
                     <div class="impact-card"><i class="fas fa-user-check"></i><h4>↓ Casual User Errors</h4><p>Completion without assistance</p></div>
                     <div class="impact-card"><i class="fas fa-brain"></i><h4>↓ Mental Load</h4><p>Smoother UX, lower confusion</p></div>
                 </div>
+                <p class="validation-note"><i class="fas fa-check-circle"></i> Impact validated in follow-up customer interaction &amp; CFE feedback.</p>
 
                 <h3>2. Legend as Interactive Filter &amp; Color Contrast</h3>
                 <div class="highlight-card">
                     <h4><i class="fas fa-exclamation-circle"></i> Insight</h4>
                     <p>Users clicked the legend expecting it to behave as a filter. Color classes were too similar → misidentification (<em>"Classification 4 and 5 look the same..."</em>).</p>
                 </div>
-                <div class="before-after">
-                    <div class="ba-item">
-                        <div class="ba-header before">Before</div>
-                        <div class="ba-content">
-                            <img src="images/roadrunner-legend-before.png" alt="Static legend with similar colors" style="max-width: 280px; margin: 0 auto;" />
+                <p class="design-change"><i class="fas fa-pencil-ruler"></i> <strong>Design change:</strong> Added checkbox-based interactive filters and a high-contrast color palette.</p>
+                <div class="compare">
+                    <div class="compare-item">
+                        <div class="compare-head">
+                            <span class="compare-title">Legend as filter &amp; color contrast</span>
                         </div>
-                    </div>
-                    <div class="ba-item">
-                        <div class="ba-header after">After</div>
-                        <div class="ba-content">
-                            <img src="images/roadrunner-legend-after.png" alt="Checkbox filters and high-contrast palette" style="max-width: 280px; margin: 0 auto;" />
+                        <div class="compare-flow">
+                            <div class="compare-side compare-side--before">
+                                <span class="compare-tag before">Before</span>
+                                <div class="compare-media">
+                                    <img src="images/roadrunner-legend-before.png" alt="Static legend with similar colors" />
+                                </div>
+                            </div>
+                            <span class="compare-arrow"><i class="fas fa-arrow-right"></i></span>
+                            <div class="compare-side compare-side--after">
+                                <span class="compare-tag after">After</span>
+                                <div class="compare-media">
+                                    <img src="images/roadrunner-legend-after.png" alt="Checkbox filters and high-contrast palette" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <h3 class="impact-heading"><i class="fas fa-chart-line"></i> Impact</h3>
+                <div class="impact-grid">
+                    <div class="impact-card"><i class="fas fa-filter"></i><h4>↑ Easier Filtering</h4><p>Show / hide road classes without trial-and-error</p></div>
+                    <div class="impact-card"><i class="fas fa-eye"></i><h4>↑ Faster Road Identification</h4><p>Better visibility, smoother road selection</p></div>
+                </div>
+                <p class="validation-note"><i class="fas fa-check-circle"></i> Impact validated in follow-up customer interaction &amp; CFE feedback.</p>
             </div>
 
             <!-- Impacts & Learnings -->
