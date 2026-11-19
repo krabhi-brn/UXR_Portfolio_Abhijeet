@@ -479,6 +479,27 @@ nav {
     margin-bottom: 0.75rem;
     display: block;
 }
+.case-card__head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.875rem;
+}
+.case-card__head .mono {
+    margin-bottom: 0;
+    padding-top: 0.15rem;
+}
+.case-card__logo {
+    width: 46px;
+    height: 46px;
+    object-fit: contain;
+    flex-shrink: 0;
+    padding: 0.4rem;
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+}
 .case-card h3 {
     margin: 0 0 0.75rem 0;
     font-size: 1.25rem;
